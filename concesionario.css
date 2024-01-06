@@ -7,7 +7,8 @@
 
 .encabezado{
 height: 500px;
-width:1200px;
+width:100%;
+margin-left: 10%;
 
 
 }
@@ -184,3 +185,70 @@ main{
     margin-left:26px;
     color:black
 }
+.modelos p{
+    font-size: 12px;
+    color:gray;
+    margin-top: -10px;
+    margin-left:26px;
+}
+.modelos ul{
+    margin-left:-8px;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    list-style: none;
+}
+
+
+article{
+    display:flex;
+    margin-top:10%;
+}
+
+section{
+    margin: 5px;
+}
+
+section img{
+    height:166px;
+    width:282px;
+}
+
+section h3{
+    font-size: 20px;
+    margin-top:7px;
+    color:black
+}
+
+section p{
+    font-size: 10px;
+    color:gray;
+    margin-top: -10px; 
+}
+
+section a{
+    text-decoration: none;
+    color:black;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.ImagenYVideo{
+    margin-top: 60px;
+    display: flex;
+
+}
+
+.ImagenYVideo img{
+    margin: 10px; 
+}
+
+.ImagenYVideo iframe{
+    margin:10px;
+}
+.ImagenYVideo p{
+    color:black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
