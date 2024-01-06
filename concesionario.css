@@ -122,14 +122,65 @@ main{
     display:flex;
     flex-direction: column;
     width:100%;
-    margin-left:20%;
+    margin-left:10%;
 }
 
 .series {
     margin-top: 10%;
 }
+
+.navSeries ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navSeries li a{
+    text-decoration: none;
+    color:gray;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 2px;
+    margin-right: 5px;
+    border-bottom-width:1px ;
+    border-bottom-color:gray;
+    border-bottom-style: solid;
+}
+
+@media(hover:hover){
+.navSeries li a:hover{
+    color:black;
+    font-size: 25px;
+    border-bottom-color: blue;
+}
+}
+
 .series h3{
-    font-size: 12px;
+    font-size: 15px;
     color:gray;
 
+}
+
+.fotosModelos{
+    display:flex;
+    align-items: center;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+.modelos{
+    height:300px;
+    width:320px;
+}
+
+.modelos img{
+    height:190px;
+    width:260px;
+    margin: 25px;
+}
+.modelos h3{
+    font-size: 15px;
+    margin-top:-10px;
+    margin-left:26px;
+    color:black
 }
