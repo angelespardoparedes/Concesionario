@@ -6,7 +6,7 @@
 /** Encabezado: Imagen del coche, menu de navegacion y titular**/
 
 .encabezado{
-height: 700px;
+height: 500px;
 width:1200px;
 
 
@@ -118,3 +118,18 @@ width:1200px;
 
 
 /* Main:Series*/
+main{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    margin-left:20%;
+}
+
+.series {
+    margin-top: 10%;
+}
+.series h3{
+    font-size: 12px;
+    color:gray;
+
+}
